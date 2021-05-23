@@ -2,7 +2,7 @@
 
 > **2CPU & 7GB RAM**
 
-> ## [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/c9ffin/RDP_COFFIN/blob/main/.github/workflows/coffin.yml)
+> ## [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/Oshekher/RDP/blob/main/.github/workflows/coffin.yml)
 
 ## You are not allowed to modify the project.
 * Click Fork in the right corner of the screen to save it to your Github.
