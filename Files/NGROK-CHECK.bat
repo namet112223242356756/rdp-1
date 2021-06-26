@@ -9,7 +9,7 @@ echo IP:
 tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "Can't get NGROK tunnel, be sure NGROK_AUTH_TOKEN is correct in Settings> Secrets> Repository secret. Maybe your previous VM still running: https://dashboard.ngrok.com/status/tunnels " 
 echo User: Administrator
 echo Pass: @Oshekher
-curl -O https://raw.githubusercontent.com/c9ffin/rdp/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
+curl -O https://raw.githubusercontent.com/Oshekher-git/rdp/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/Oshekher/RDP/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\npp.7.9.4.Installer.x64.exe" https://raw.githubusercontent.com/Oshekher/RDP/main/Files/npp.7.9.4.Installer.x64.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Everything.exe" https://raw.githubusercontent.com/Oshekher/RDP/main/Files/Everything.exe > out.txt 2>&1
